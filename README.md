@@ -10,22 +10,16 @@ This guide will walk you through the process of setting up the University Manage
 1. `Clone the project:` Open your terminal or command prompt and run the following command to clone the project repository:
 
 ```bash
-git clone https://github.com/Programming-Hero-Next-Level-Development/university-management-core-service-starter.git university-management-core-service
+git clone https://github.com/imam-hossain1/backend-server-templete.git
 ```
 
-2. `Navigate into the project directory:` Use the cd command to navigate into the project directory:
-
-```bash
-cd university-management-core-service
-```
-
-3. `Install project dependencies:` Next, install the project dependencies by running the following command:
+2. `Install project dependencies:` Next, install the project dependencies by running the following command:
 
 ```bash
 yarn install
 ```
 
-4. Configure Prisma and the database connection:
+3. Configure Prisma and the database connection:
 
 - Add Prisma as a development dependency by running the following command:
 ```bash
@@ -51,8 +45,8 @@ datasource db {
 DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA"
 ```
 
-5. Creating the database schema
-6. Migrate the database schema: Use the following command to create and apply the initial database schema:
+4. Creating the database schema
+5. Migrate the database schema: Use the following command to create and apply the initial database schema:
 
 ```bash
 npx prisma migrate dev --name init
@@ -66,6 +60,6 @@ yarn add @prisma/client
 
 This command installs the Prisma Client, which provides an interface to interact with your database.
 
-That's it! You have successfully set up the University Management Core Service Starter project. You can now start exploring and working with the codebase. Refer to the project documentation or README for further instructions on how to run and use the core service.
+That's it! You have successfully set up the backend server Starter project. You can now start exploring and working with the codebase. Refer to the project documentation or README for further instructions on how to run and use the core service.
 
 Happy coding!
